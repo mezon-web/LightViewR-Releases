@@ -14,5 +14,12 @@
   "runtimesBundled": false,
   "personalMachineMarkersExcluded": true,
   "firstRunPresenceScrollFrame95Ms": 20.5935,
-  "rerunPresenceScrollFrame95Ms": 16.8066
+  "rerunPresenceScrollFrame95Ms": 16.8066,
+  "downloadVerification": {
+    "latestTag": "v0.3.9",
+    "archiveSha256": "5b7a7f193546f66a220f496338ce3968b31f36b41953ab06aad2555fc7c238f0",
+    "checksumFileMatches": true,
+    "portableSettingsPassed": true,
+    "isolatedDesktopReleased": true
+  }
 }
