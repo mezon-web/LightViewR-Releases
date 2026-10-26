@@ -4,20 +4,20 @@
 
 Windows向けの、軽快なPDF・Markdown・テキスト・表・HTMLビューワです。
 
-**[公開済み v0.3.8 をダウンロード](https://github.com/mezon-web/LightViewR-Releases/releases/tag/v0.3.8)**
+**[LightViewR v0.3.9 をダウンロード](https://github.com/mezon-web/LightViewR-Releases/releases/tag/v0.3.9)**
 
-v0.3.8 は改名前の配布物です。ZIP内のファイル名と操作説明は当時の名称を維持しています。
+v0.3.9からアプリ名とEXE名をLightViewRに統一しました。過去のリリースと添付ZIPは当時の名前で残しています。
 
 設定・履歴・読書位置は、起動後にEXE横へ作成される `UserData` に保存します。[長いPDFの表示例](assets/scrollbar-0.3.4.png)も確認できます。
 
 ## はじめに
 
-1. 正式版のリリースページの **Assets** から `LightView-v0.3.8.zip` をダウンロードします。
-2. ZIPを展開し、`LightView-v0.3.8` フォルダ内の **LightView.exe** を起動します。
+1. 正式版のリリースページの **Assets** から `LightViewR-v0.3.9.zip` をダウンロードします。
+2. ZIPを展開し、`LightViewR-v0.3.9` フォルダ内の **LightViewR.exe** を起動します。
 3. 「開く」またはファイルのドラッグ＆ドロップで文書を開きます。
 
 インストーラーはありません。フォルダごと保存して使うポータブル版です。
-展開した `LightView-v0.3.8` フォルダの **LightView.exe** を起動し、補助フォルダ **_support** はEXEと一緒に保存してください。起動後に個人設定用の **UserData** が作成されます。
+展開した `LightViewR-v0.3.9` フォルダの **LightViewR.exe** を起動し、補助フォルダ **_support** はEXEと一緒に保存してください。起動後に個人設定用の **UserData** が作成されます。
 使い方は右端の **「？」／F1** または [操作説明](docs/操作説明.md) で確認できます。
 
 ## 必要な実行環境
@@ -54,13 +54,13 @@ Markdown・HTMLの埋め込みスクリプトを実行せず、外部画像を�
 
 ![Markdown画面：ライトとダーク](assets/compare-markdown-0.3.3-design.1.png)
 
-![LightViewのPDF表示](assets/viewer.png)
+![PDF表示例](assets/viewer.png)
 
 ![アプリ内ヘルプ](assets/help.png)
 
 ## 更新と確認
 
-アプリを終了し、同じフォルダの **LightView.exe** と **_support** を新しいZIPのものへ置き換えてください。**UserData** は残します。別フォルダに展開する場合は、UserDataもコピーすると履歴・読書位置・外観設定を引き継げます。旧版の `%LOCALAPPDATA%\LightPDF` にある設定は自動移行しません。設定の保存には展開先への書き込み権限が必要です。
+アプリを終了し、新しいZIPを別フォルダへ展開してください。旧版の起動フォルダに **UserData** がある場合は、新しい `LightViewR.exe` と同じ場所へコピーすると履歴・読書位置・外観設定を引き継げます。旧版のLocalAppDataにある設定は自動移行しません。設定の保存には展開先への書き込み権限が必要です。
 各リリースにZIPの **SHA-256チェックサム** を添付しています。
 
 Windows 11 x64向けです。Windows 10実機では未確認です。追記読込や大きな文書の初回表示は、全体照合とCSVの構造検査により時間がかかる場合があります。大きな文書の一時保持には元ファイル相当のディスク空きが必要です。

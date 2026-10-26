@@ -1,0 +1,18 @@
+{
+  "version": "0.3.9",
+  "archive": "LightViewR-v0.3.9.zip",
+  "archiveBytes": 8503029,
+  "archiveSha256": "5b7a7f193546f66a220f496338ce3968b31f36b41953ab06aad2555fc7c238f0",
+  "executableSha256": "157448003d08044f25e8157d35f218838bbc50e291e3f064fe574e60d36aabcb",
+  "files": 229,
+  "checksPassed": 770,
+  "startupRunsPerDocument": 3,
+  "independentWindows": 7,
+  "topFolder": "LightViewR-v0.3.9",
+  "rootEntries": ["LightViewR.exe", "_support"],
+  "userDataExcluded": true,
+  "runtimesBundled": false,
+  "personalMachineMarkersExcluded": true,
+  "firstRunPresenceScrollFrame95Ms": 20.5935,
+  "rerunPresenceScrollFrame95Ms": 16.8066
+}
