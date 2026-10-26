@@ -1,10 +1,12 @@
-<img src="assets/LightView.png" width="64" alt="LightView アイコン">
+<img src="assets/LightViewR.png" width="64" alt="LightViewR アイコン">
 
-# LightView 📄
+# LightViewR 📄
 
 Windows向けの、軽快なPDF・Markdown・テキスト・表・HTMLビューワです。
 
-**[正式版 v0.3.8 をダウンロード](https://github.com/mezon-web/LightView-Releases/releases/tag/v0.3.8)**
+**[公開済み v0.3.8 をダウンロード](https://github.com/mezon-web/LightViewR-Releases/releases/tag/v0.3.8)**
+
+v0.3.8 は改名前の配布物です。ZIP内のファイル名と操作説明は当時の名称を維持しています。
 
 設定・履歴・読書位置は、起動後にEXE横へ作成される `UserData` に保存します。[長いPDFの表示例](assets/scrollbar-0.3.4.png)も確認できます。
 
