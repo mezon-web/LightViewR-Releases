@@ -4,7 +4,7 @@
 
 Windows向けの、軽快なPDF・Markdown・テキスト・表・HTMLビューワです。
 
-**[LightViewR v0.3.12 をダウンロード](https://github.com/mezon-web/LightViewR-Releases/releases/tag/v0.3.12)**
+**[LightViewR v0.3.13 をダウンロード](https://github.com/mezon-web/LightViewR-Releases/releases/tag/v0.3.13)**
 
 v0.3.9からアプリ名とEXE名をLightViewRに統一しました。過去のリリースと添付ZIPは当時の名前で残しています。
 
@@ -14,16 +14,18 @@ v0.3.11ではPDFのページ番号の左右にある前後ページボタンを�
 
 v0.3.12では長いMarkdownでスクロールバーのつまみとマウスポインターがずれていく問題を修正しました。本文全体の高さを最初に計算するため、長い文書では初期表示にかかる時間が増える場合があります。
 
+v0.3.13ではPDFの検索強調を行ごとの連続した矩形にし、件数の右に「正規表現」チェックを追加しました。通常検索は初期設定のまま使えます。
+
 設定・履歴・読書位置は、起動後にEXE横へ作成される `UserData` に保存します。[長いPDFの表示例](assets/scrollbar-0.3.4.png)も確認できます。
 
 ## はじめに
 
-1. 正式版のリリースページの **Assets** から `LightViewR-v0.3.12.zip` をダウンロードします。
-2. ZIPを展開し、`LightViewR-v0.3.12` フォルダ内の **LightViewR.exe** を起動します。
+1. 正式版のリリースページの **Assets** から `LightViewR-v0.3.13.zip` をダウンロードします。
+2. ZIPを展開し、`LightViewR-v0.3.13` フォルダ内の **LightViewR.exe** を起動します。
 3. 「開く」またはファイルのドラッグ＆ドロップで文書を開きます。
 
 インストーラーはありません。フォルダごと保存して使うポータブル版です。
-展開した `LightViewR-v0.3.12` フォルダの **LightViewR.exe** を起動し、補助フォルダ **_support** はEXEと一緒に保存してください。起動後に個人設定用の **UserData** が作成されます。
+展開した `LightViewR-v0.3.13` フォルダの **LightViewR.exe** を起動し、補助フォルダ **_support** はEXEと一緒に保存してください。起動後に個人設定用の **UserData** が作成されます。
 使い方は右端の **「？」／F1** または [操作説明](docs/操作説明.md) で確認できます。
 
 ## 必要な実行環境
@@ -57,6 +59,8 @@ Markdown・HTMLの埋め込みスクリプトを実行せず、外部画像を�
 ## 画面
 
 検索欄内の×で検索語をクリアできます。右端の×は検索欄を閉じます。
+
+![正規表現検索とPDFの矩形強調](assets/search-regex-0.3.13.png)
 
 ![検索語のクリア](assets/search-0.3.10.png)
 
