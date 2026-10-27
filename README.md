@@ -4,22 +4,24 @@
 
 Windows向けの、軽快なPDF・Markdown・テキスト・表・HTMLビューワです。
 
-**[LightViewR v0.3.10 をダウンロード](https://github.com/mezon-web/LightViewR-Releases/releases/tag/v0.3.10)**
+**[LightViewR v0.3.11 をダウンロード](https://github.com/mezon-web/LightViewR-Releases/releases/tag/v0.3.11)**
 
 v0.3.9からアプリ名とEXE名をLightViewRに統一しました。過去のリリースと添付ZIPは当時の名前で残しています。
 
 v0.3.10では検索の塗りを薄くし、検索語のクリアと、本文をクリックした位置からの検索移動に対応しました。
 
+v0.3.11ではPDFのページ番号の左右にある前後ページボタンを見やすくしました。
+
 設定・履歴・読書位置は、起動後にEXE横へ作成される `UserData` に保存します。[長いPDFの表示例](assets/scrollbar-0.3.4.png)も確認できます。
 
 ## はじめに
 
-1. 正式版のリリースページの **Assets** から `LightViewR-v0.3.10.zip` をダウンロードします。
-2. ZIPを展開し、`LightViewR-v0.3.10` フォルダ内の **LightViewR.exe** を起動します。
+1. 正式版のリリースページの **Assets** から `LightViewR-v0.3.11.zip` をダウンロードします。
+2. ZIPを展開し、`LightViewR-v0.3.11` フォルダ内の **LightViewR.exe** を起動します。
 3. 「開く」またはファイルのドラッグ＆ドロップで文書を開きます。
 
 インストーラーはありません。フォルダごと保存して使うポータブル版です。
-展開した `LightViewR-v0.3.10` フォルダの **LightViewR.exe** を起動し、補助フォルダ **_support** はEXEと一緒に保存してください。起動後に個人設定用の **UserData** が作成されます。
+展開した `LightViewR-v0.3.11` フォルダの **LightViewR.exe** を起動し、補助フォルダ **_support** はEXEと一緒に保存してください。起動後に個人設定用の **UserData** が作成されます。
 使い方は右端の **「？」／F1** または [操作説明](docs/操作説明.md) で確認できます。
 
 ## 必要な実行環境
